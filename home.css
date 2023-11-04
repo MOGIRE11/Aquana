@@ -112,8 +112,11 @@ body{
 }
 #carry{
     margin-right:0;
-    height: auto;
+    /* height: 80%; */
     border-radius: 10px;
+    /* border: 1px solid ; */
+    width: 100%;
+    object-fit: contain;
 }
 #refreshment{
     display: flex;
@@ -123,6 +126,7 @@ body{
 #count{
     font-size: 17px;
     font-weight: 300;
+    width: 95%;
 }
 
 #sign{
@@ -243,7 +247,7 @@ hr{
     justify-content: space-between;
     gap: 30px;
     padding: 1% 3%;
-    background: linear-gradient(to right,rgb(28, 28, 200),rgb(69, 69, 176));
+    background: linear-gradient(to right,rgb(110, 110, 188),rgb(55, 55, 218));
 }
     
 .map{
